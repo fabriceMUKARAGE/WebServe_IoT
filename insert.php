@@ -10,7 +10,7 @@ $con = mysqli_connect(servename,username,password,db);
 
 $level=$_GET['tank_level'];
 
-$sql = "INSERT INTO tank (tank_level)
+$sql = "INSERT INTO information (tank_level)
 VALUES ('$level')";
 
 if (mysqli_query($con, $sql)) 

@@ -10,7 +10,6 @@ $(document).on('click','#showData',function(e){
   });
 });
 
-
 $(document).on('click','#showData5',function(e){
     $.ajax({    
       type: "GET",
